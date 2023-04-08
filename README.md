@@ -1,10 +1,34 @@
-<a id="readme-top"></a>
+<a name="readme-top"></a>
+
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+After you're finished please remove all the comments and instructions!
+-->
 
 <div align="center">
- <img src="https://user-images.githubusercontent.com/108806646/219856388-8866e42b-205f-4f61-9331-e8eedbb1c823.png" alt="logo" width="200"  height="auto" />
-   <br/>
-  <h2>README</h2>
+
+  <h2><b>RAILS_REACT WEB APPLICATION</b></h2>
+
 </div>
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -19,84 +43,77 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Hello Rails Backend app <a id="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-> The Hello Rails Backend app is about displaying the random greeting in the browser!!!.
+# 📖 Rails_React <a name="about-project"></a>
 
-<!-- <div align="center">
-Please click on the video below to more explanation
+**RailsReact** is web app to display greetings from rails API with react as the front-end using webpack in one app
 
-## Video for explanation
-</div>
+## 🛠 Built With <a name="built-with"></a>
 
-<div align="center">
-  <a href="https://www.loom.com/share/dbdff12cc31548deaf512e2f43b0de7b">
-    <img width="600" alt="expenses_list" src="https://user-images.githubusercontent.com/108806646/219854544-36a9104f-5329-4c0f-969d-e51bd8fa5808.png">
-  </a>
-</div> -->
+### Tech Stack <a name="tech-stack"></a>
 
-<!-- <div align="center">
+> [Ruby on Rails](https://guides.rubyonrails.org/) (simplify as Rails) is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer and HTML, CSS and JavaScript for user interfacing.
 
-  ## ERD Diagram <a id="diagram">
-  <img width="600" alt="erd_diagram" src="https://user-images.githubusercontent.com/108806646/219854705-b1d9bcf2-1245-417d-b63a-b3d144e32779.png">
-</div> -->
+> [React](https://reactjs.org/) React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.
 
-## 🛠 Built With <a id="built-with"></a>
+> [Webpack](https://webpack.js.org/concepts/) is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph from one or more entry points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.
 
-### Tech Stack <a id="tech-stack"></a>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React</a></li>
+  </ul>
+</details>
 
-  <details>
-    <summary>Backend</summary>
-    <ul>
-      <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
-    </ul>
-  </details>
-  <details>
-    <summary>Frontend</summary>
-    <ul>
-      <li><a href="https://reactjs.org/">React.js</a></li>
-    </ul>
-  </details>
-  <details>
-    <summary>Database</summary>
-    <ul>
-      <li><a href="https://www.postgresql.org/">Postgresql</a></li>
-    </ul>
-   </details>
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://guides.rubyonrails.org/">Ruby on Rails</a></li>
+  </ul>
+</details>
 
-  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
-### Key Features <a id="key-features"></a>
+### Key Features <a name="key-features"></a>
 
-- **The App can display random Greeting**
-- **Get the random greeting from API**
-- **Display the random greeting Greeting component**
+> Key features of the application are
+
+- **Display of content from API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a id="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-> Please click the link below to open our webpage in your browser
+> Add a link to your deployed project.
 
-- [Live Demo Link]()
+- [Live Demo coming soon...](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a id="getting-started"></a>
+## 💻 Getting Started <a name="getting-started"></a>
+
+> This project can be used by anyone for any good purpose.
 
 To get a local copy up and running, follow these steps.
 
@@ -104,29 +121,28 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- IDE or code editor: **VsCode, atom, sublime**...
-- To have [Ruby](https://www.ruby-lang.org/en/), [RoR gem](https://rubyonrails.org/) and [Git](https://git-scm.com/) installed on your system.
+- [Ruby and Rails on you operating system eg. for Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04)
+- [Node.js](https://nodejs.dev/en/) installed
+- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
+- [PostgreSQL](https://www.postgresql.org/) database installed
 
 ### Setup
 
-Clone this project on your local machine using the following command on your terminal:
+Clone this repository to your desired folder:
 
 ```sh
-  https://github.com/nejjari001/hello-rails-react-setup.git
+  cd hello_world_react_irb
+  git clone https://github.com/nejjari001/hello-rails-react-setup.git
 ```
 
 ### Install
 
-Run the following command to install all project's dependencies:
+Install this project with:
 
 ```sh
-bundle install
-```
+  cd hello-rails-react
 
-Run the following command to install Rspec for tests:
-
-```sh
-gem install rspec
+  bundle install
 ```
 
 ### Usage
@@ -134,33 +150,34 @@ gem install rspec
 To run the project, execute the following command:
 
 ```sh
-  rails s
+  ./bin/dev
 ```
 
-## Run Tests
+### Run tests
 
-Run the following command to catch all style errors:
-
-```sh
-rubocop
-```
-
-Run the following command for the rspec tests(with details):
+To run tests, run the following command:
 
 ```sh
-rspec ./spec --format documentation
+  bin/rails rspec spec
 ```
 
 ### Deployment
 
 You can deploy this project using:
 
-- [Heroku](https://www.heroku.com/), or
-- [Render](https://render.com/)
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Author <a id="authors"></a>
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **NEJJARI ABDELHAFID**
 
@@ -172,61 +189,58 @@ You can deploy this project using:
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a id="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
-> Features to add to the project.
-
-- **Deploy the project on Render.com**
-- **Make a Mobile design for the App**
+- Coming Soon ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a id="contributing"></a>
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/nejjari001/hello-rails-react-setup/issues/new).
+Feel free to check the [issues page](https://github.com/nejjari001/hello-rails-react-setup/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a id="support"></a>
+## ⭐️ Show your support <a name="support"></a>
 
-Give this project a star if you like it !
+If you like this project buy me a [drink](.../.../)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a id="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank:
+> Give credit to everyone who inspired your codebase.
 
-- Theophile Kango and My cording partners.
+We would like to thank [Microverse](https://www.microverse.org/) for inspiring this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ <a id="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 
-- **Do I have to have any previous knowledge about ruby to use this project?**
+- **Is Rails still relevant?**
 
-  - No!
+  - [Yes, Rails is still popular among developer](https://blog.railwaymen.org/is-ruby-on-rails-dead)
 
-- **How to use this project?**
+- **Is it easy to learn Ruby on Rails**
 
-  - check the [Getting Started](#getting-started) section to have a complete guid on how to setup and run teh project.
+  - [It is very easy to learn compared to most of the programming languages](https://careerkarma.com/blog/why-learn-ruby-on-rails/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
-## 📝 License <a id="license"></a>
+## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
