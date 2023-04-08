@@ -90,7 +90,7 @@ Please click on the video below to more explanation
 
 > Please click the link below to open our webpage in your browser
 
-- [Live Demo Link](https://)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
