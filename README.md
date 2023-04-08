@@ -1,40 +1,10 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
+<a id="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
+ <img src="https://user-images.githubusercontent.com/108806646/219856388-8866e42b-205f-4f61-9331-e8eedbb1c823.png" alt="logo" width="200"  height="auto" />
+   <br/>
+  <h2>README</h2>
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -55,71 +25,78 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 Hello Rails Backend app <a id="about-project"></a>
 
-# 📖 [your_project_name] <a name="about-project"></a>
+> The Hello Rails Backend app is about displaying the random greeting in the browser!!!.
 
-> Describe your project in 1 or 2 sentences.
+<!-- <div align="center">
+Please click on the video below to more explanation
 
-**[your_project__name]** is a...
+## Video for explanation
+</div>
 
-## 🛠 Built With <a name="built-with"></a>
+<div align="center">
+  <a href="https://www.loom.com/share/dbdff12cc31548deaf512e2f43b0de7b">
+    <img width="600" alt="expenses_list" src="https://user-images.githubusercontent.com/108806646/219854544-36a9104f-5329-4c0f-969d-e51bd8fa5808.png">
+  </a>
+</div> -->
 
-### Tech Stack <a name="tech-stack"></a>
+<!-- <div align="center">
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+  ## ERD Diagram <a id="diagram">
+  <img width="600" alt="erd_diagram" src="https://user-images.githubusercontent.com/108806646/219854705-b1d9bcf2-1245-417d-b63a-b3d144e32779.png">
+</div> -->
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
+## 🛠 Built With <a id="built-with"></a>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
+### Tech Stack <a id="tech-stack"></a>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+  <details>
+    <summary>Backend</summary>
+    <ul>
+      <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+    </ul>
+  </details>
+  <details>
+    <summary>Frontend</summary>
+    <ul>
+      <li><a href="https://reactjs.org/">React.js</a></li>
+    </ul>
+  </details>
+  <details>
+    <summary>Database</summary>
+    <ul>
+      <li><a href="https://www.postgresql.org/">Postgresql</a></li>
+    </ul>
+   </details>
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features <a id="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **The App can display random Greeting**
+- **Get the random greeting from API**
+- **Display the random greeting Greeting component**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a id="live-demo"></a>
 
-> Add a link to your deployed project.
+> Please click the link below to open our webpage in your browser
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
+## 💻 Getting Started <a id="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
@@ -127,162 +104,129 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- IDE or code editor: **VsCode, atom, sublime**...
+- To have [Ruby](https://www.ruby-lang.org/en/), [RoR gem](https://rubyonrails.org/) and [Git](https://git-scm.com/) installed on your system.
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-<!--
-Example commands:
+Clone this project on your local machine using the following command on your terminal:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  https://github.com/nejjari001/-hello-rails-react.git
 ```
---->
 
 ### Install
 
-Install this project with:
-
-<!--
-Example command:
+Run the following command to install all project's dependencies:
 
 ```sh
-  cd my-project
-  gem install
+bundle install
 ```
---->
+
+Run the following command to install Rspec for tests:
+
+```sh
+gem install rspec
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
+```sh
+  rails s
+```
+
+## Run Tests
+
+Run the following command to catch all style errors:
 
 ```sh
-  rails server
+rubocop
 ```
---->
 
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
+Run the following command for the rspec tests(with details):
 
 ```sh
-  bin/rails test test/models/article_test.rb
+rspec ./spec --format documentation
 ```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+- [Heroku](https://www.heroku.com/), or
+- [Render](https://render.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+## 👥 Author <a id="authors"></a>
 
-## 👥 Authors <a name="authors"></a>
+👤 **NEJJARI ABDELHAFID**
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [ @Nejjari001](https://github.com/Nejjari001)
+- Twitter: [@AbdoNJ19](https://https//twitter.com/AbdoNJ19)
+- LinkedIn: [Abdelhafid Nejjari](https://www.linkedin.com/in/abdelhafid-nejjari)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a id="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Features to add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **Deploy the project on Render.com**
+- **Make a Mobile design for the App**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a id="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/nejjari001/-hello-rails-react/issues/new).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐️ Show your support <a id="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give this project a star if you like it !
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a id="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I would like to thank:
 
-I would like to thank...
+- Theophile Kango and My cording partners.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a id="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **Do I have to have any previous knowledge about ruby to use this project?**
 
-- **[Question_1]**
+  - No!
 
-  - [Answer_1]
+- **How to use this project?**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - check the [Getting Started](#getting-started) section to have a complete guid on how to setup and run teh project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a id="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
