@@ -1,30 +1,6 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
-  <h2><b>RAILS_REACT WEB APPLICATION</b></h2>
+  <h3><b>GREETING API</b></h3>
 
 </div>
 
@@ -54,26 +30,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Rails_React <a name="about-project"></a>
+# 📖 Greeting_API <a name="about-project"></a>
 
-**RailsReact** is web app to display greetings from rails API with react as the front-end using webpack in one app
+**Greeting_API** is web app to display greetings from rails API with react as the front-end in two apps.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 > [Ruby on Rails](https://guides.rubyonrails.org/) (simplify as Rails) is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer and HTML, CSS and JavaScript for user interfacing.
-
-> [React](https://reactjs.org/) React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.
-
-> [Webpack](https://webpack.js.org/concepts/) is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph from one or more entry points and then combines every module your project needs into one or more bundles, which are static assets to serve your content from.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React</a></li>
-  </ul>
-</details>
 
 <details>
   <summary>Server</summary>
@@ -93,9 +58,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Key features of the application are
-
-- **Display of content from API**
+- **Setup API endpoints**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,17 +66,15 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+- [Live API link](https://greeting-t0aj.onrender.com/greetings)
 
-- [Live Demo coming soon...](https://yourdeployedapplicationlink.com)
+- [Frontend Reopository PR](https://github.com/Nejjari001/hello-rails-react)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> This project can be used by anyone for any good purpose.
 
 To get a local copy up and running, follow these steps.
 
@@ -131,8 +92,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd hello_world_react_irb
-  git clone https://github.com/nejjari001/hello-rails-react-setup.git
+  cd my-folder
+  git clone https://github.com/nejjari001/hello-rails-back-end.git
 ```
 
 ### Install
@@ -140,7 +101,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd hello-rails-react
+  cd hello-rails-back-end
 
   bundle install
 ```
@@ -150,7 +111,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  ./bin/dev
+  rails s
 ```
 
 ### Run tests
@@ -191,7 +152,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Coming Soon ...
+- [x] API authentication
+- [x] API documentation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,7 +163,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/nejjari001/hello-rails-react-setup/issues).
+Feel free to check the [issues page](https://github.com/nejjari001/hello-rails-back-end/issues/new).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,7 +171,7 @@ Feel free to check the [issues page](https://github.com/nejjari001/hello-rails-r
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project buy me a [drink](.../.../)
+If you like this project, kindly give me a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -217,9 +179,8 @@ If you like this project buy me a [drink](.../.../)
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-We would like to thank [Microverse](https://www.microverse.org/) for inspiring this project
+- I would like to thank [Microverse](https://www.microverse.org/) for inspiring this project
+- I would like to appreciate [Render](https://render.com) for the plateform to deploy the API
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -241,6 +202,8 @@ We would like to thank [Microverse](https://www.microverse.org/) for inspiring t
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
